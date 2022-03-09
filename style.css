@@ -1,0 +1,416 @@
+    html{
+    font-size: 16px;
+
+    }
+    *{
+    margin: 0;
+    padding: 0;
+    }
+    section{
+    max-width: 100vw;
+    max-height: 100vh;
+
+
+    }
+
+    h1{
+    font-family: oswald;
+    color: hsl(210, 13%, 94%);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 110px;
+    line-height: 68px;
+    padding-bottom: 42px;
+    }
+
+    h3{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 62px;
+    letter-spacing: 3px;
+
+    color: #EEF0F2;
+
+
+    }
+    .content-text-container li{
+        font-family: Quattrocento;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+    
+        color: #EEF0F2;
+
+    }
+    p{
+    font-family: Quattrocento;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #EEF0F2;
+
+    }
+    .landing-text{
+    padding-bottom: 68px;
+    padding-left: 26px; 
+    padding-right: 26px; 
+
+    }
+    .landing-text h2{
+    font-family: Quattrocento;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 0px;
+    }
+
+    #landing-first-name{
+    letter-spacing: 16px;
+
+    }
+    #landing-last-name{
+
+    letter-spacing: 0;
+
+    }
+
+    h2{
+    font-family: Quattrocento;
+    color: #EEF0F2;
+
+    }
+
+    .main-container{
+    display: flexbox;
+
+
+    }
+
+    .landing-container{
+    height: 100vh;
+    width: 100vw;
+    background: #394053;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    height: 100vh;
+    width: 100vw;
+    }
+
+    #infographic{
+    background: #E16F7C;
+    }
+    #energy-map{
+        background: #CC4BC2;
+    }
+#energy-map02{
+    background: #EEF0F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#energy-map02 img{
+width: 80%;
+
+}
+#airline-map{
+background-color: #FF4365;
+
+}
+
+    #infographic a{
+    color: #394053;
+    text-decoration: none;
+
+    }
+
+    .content-container{
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+
+    }
+    .context-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    }
+
+    button{
+    text-decoration: none;
+    width: 26px;
+    height:26px;
+    border:none;
+
+    }
+    nav{
+    position:fixed;
+    display: flex;
+
+    justify-content: flex-end;
+    z-index: 2;
+    width: 100vw;
+    right: 26px;
+    top: 26px;
+    }
+    .infographic-container{
+    width: 100vw;
+    height: 100%;
+    background: linear-gradient(180deg, #0C424D 0%, #09596B 100%);
+
+    flex-direction: row;
+    justify-content: flex-end;
+   align-items: center;
+   /* padding: 26px; */
+    }
+    #ig-bg-img{
+
+    overflow: hidden;
+    position: relative;
+
+    }
+
+    .infographic-container-title{
+    width: 100vw;
+    z-index: 2;
+ 
+
+    }
+
+    .infographic-container-title h1{
+
+    font-family: Amiri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 78px;
+    line-height: 137px;
+    letter-spacing: 1px;
+
+    color: #AAD971;
+
+    }
+
+ 
+ 
+ 
+
+
+.ig-text-container{
+    padding: px;
+padding-top: 42px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*Vertical*/
+    justify-content: center; /*Horizontal*/
+    align-content:center;
+    text-align: center;
+    background-image: url(./img/IG-Background01.svg);
+    background-position: 10% -600%;
+    background-repeat: no-repeat;
+    
+
+}
+.ig-text span{
+    
+    font-family: Amiri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 78px;
+    line-height: 137px;
+    letter-spacing: 1px;
+    
+    color: #AAD971;
+
+}
+.ig-text h1{
+
+    font-family: Amiri;
+font-style: normal;
+font-weight: normal;
+font-size: 78px;
+line-height: 78px;
+/* or 128% */
+
+text-align: center;
+letter-spacing: 1px;
+
+/* GS body text white */
+
+color: #EBF5F4;
+}
+.ig-text h3{
+    padding-top: 42px;
+    font-family: Basis Grotesque Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 42px;
+    line-height: 51px;
+    /* identical to box height */
+    
+    letter-spacing: -1px;
+    
+    color: #F7E379;
+
+}
+
+
+.ig-text h4{
+    padding-top: 42px;
+    font-family: Goldman Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #EBF5F4;
+}
+.ig-content-container{
+    padding-left: 26px;
+    padding-right: 26px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#ig-text-subtitle{
+    font-family: Goldman Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    
+    color: #EBF5F4;
+
+}
+
+.ig-sidetext-container{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /*Vertical*/
+    justify-content: flex-start; /*Horizontal*/
+    align-content:flex-start;
+    text-align: left;
+    justify-items: flex-start;
+    height: 300%;
+
+
+}
+ 
+    .ig-sidetext-numbers-container{
+        width: 30vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /*Vertical*/
+        justify-content: flex-start; /*Horizontal*/
+        align-content:flex-start;
+    align-items: flex-start;
+
+        text-align: left;
+    
+    
+    }
+
+    .ig-sidetext-numbers p{
+width: 70%;
+color: blue;
+    }
+    .ig-sidetext-numbers img{
+width: 15%;
+
+
+    }
+ 
+.ig-centergraphic-container img{
+
+width: 100%;
+
+}
+
+.ig-content-footer-container{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-left: 26px;
+padding-right: 26px;
+background-image: url(./img/IG-Background02.svg);
+background-position: 100% 100%;
+background-repeat: no-repeat;
+}
+.content-footer{
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+width: 80%;
+padding-bottom: 78px;
+
+}
+
+.content-footer p{
+
+margin: 12px;
+
+}
+
+
+#ig-body-title{
+
+    font-family: Goldman Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+
+text-align: center;
+
+color: #F7E379;
+padding-bottom: 16px;
+}
+
+#content-body-p{
+padding-top: 16px;
+    font-family: Goldman Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 29px;
+    
+    color: #EBF5F4;
+
+}
+
+.ig-content-footer-container img{
+
+width: 80%;
+
+}
+#airline-map02 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+#airline-map02 img{
+width: 80%;
+height: 80%;
+overflow: hidden;
+}
